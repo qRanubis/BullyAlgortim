@@ -20,3 +20,10 @@ The simulation includes:
 
 ```bash
 python bully_simulation.py
+```
+
+To simulate failed nodes, edit the DISABLED_NODES list at the top of the script:
+
+```bash
+DISABLED_NODES = [4, 5]  # Example: Nodes 4, 5 are down
+```
